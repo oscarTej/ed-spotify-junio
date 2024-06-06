@@ -1,5 +1,6 @@
 package com.iesam;
 
+import com.iesam.edspotify.facturacion.presentation.FacturaPresentation;
 import com.iesam.edspotify.usuario.presentation.UsuarioPresentation;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -10,6 +11,9 @@ public class Main {
         UsuarioPresentation.saveUsuario();
         UsuarioPresentation.getUsuarios();
         UsuarioPresentation.deleteusuario();
+
+        FacturaPresentation.deleteFactura();
+        FacturaPresentation.saveFactura();
 
 
     }

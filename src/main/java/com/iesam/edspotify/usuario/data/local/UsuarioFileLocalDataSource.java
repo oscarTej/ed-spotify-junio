@@ -92,6 +92,6 @@ public class UsuarioFileLocalDataSource {
             }
             saveList(newList);
         }
-    }
-
 }
+
+
