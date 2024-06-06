@@ -11,7 +11,7 @@ import java.util.Scanner;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.iesam.edspotify.usuario.data.local.
-
+import com.iesam.edspotify.usuario.domain.Usuario;
 
 
 public class UsuarioFileLocalDataSource {
@@ -51,9 +51,9 @@ public class UsuarioFileLocalDataSource {
 
         public Usuario findById(String id) {
             List<Usuario> models = findAll();
-            for (Usuario model : models) {
-                if (Objects.equals(model.getId(), id)) {
-                    return model;
+            for (Usuario usuario : models) {
+                if (Objects.equals(usuario.dni, id)) {
+                    return usuario;
                 }
             }
             return null;
