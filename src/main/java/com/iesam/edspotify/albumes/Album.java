@@ -5,13 +5,13 @@ import com.iesam.edspotify.albumes.canciones.Cancion;
 public class Album  {
     public String idAlbum;
     public String titulo;
-    public String añoPublicacion;
+    public String anioPublicacion;
     public String listaCanciones;
 
-    public Album(String idAlbum, String titulo, String añoPublicacion, String listaCanciones) {
+    public Album(String idAlbum, String titulo, String anioPublicacion, String listaCanciones) {
         this.idAlbum = idAlbum;
         this.titulo = titulo;
-        this.añoPublicacion = añoPublicacion;
+        this.anioPublicacion = anioPublicacion;
         this.listaCanciones = listaCanciones;
     }
 
@@ -22,7 +22,7 @@ public class Album  {
         return "Album{" +
                 "idAlbum='" + idAlbum + '\'' +
                 ", titulo='" + titulo + '\'' +
-                ", añoPublicacion='" + añoPublicacion + '\'' +
+                ", añoPublicacion='" + anioPublicacion + '\'' +
                 ", listaCanciones='" + listaCanciones + '\'' +
                 '}';
     }

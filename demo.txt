@@ -1,0 +1,1 @@
+[{"idFactura":"64","usuario":{"dni":"1876","nombre":"Gonzalo","apellidos":"sanchez","fechaNacimiento":"23/3/1984"},"fechaFacturacion":"Jun 6, 2024, 5:53:18?PM","totalFacturado":"9,90"}]

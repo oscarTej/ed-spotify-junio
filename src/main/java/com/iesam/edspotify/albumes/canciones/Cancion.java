@@ -8,8 +8,8 @@ public class Cancion extends Album {
     public String titulo;
     public String autor;
 
-    public Cancion(String idAlbum, String titulo, String añoPublicacion, String listaCanciones, String idCancion, String titulo1, String autor) {
-        super(idAlbum, titulo, añoPublicacion, listaCanciones);
+    public Cancion(String idAlbum, String titulo, String anioPublicacion, String listaCanciones, String idCancion, String titulo1, String autor) {
+        super(idAlbum, titulo, anioPublicacion, listaCanciones);
         this.idCancion = idCancion;
         this.titulo = titulo1;
         this.autor = autor;
@@ -23,7 +23,7 @@ public class Cancion extends Album {
                 ", autor='" + autor + '\'' +
                 ", idAlbum='" + idAlbum + '\'' +
                 ", titulo='" + titulo + '\'' +
-                ", añoPublicacion='" + añoPublicacion + '\'' +
+                ", añoPublicacion='" + anioPublicacion + '\'' +
                 ", listaCanciones='" + listaCanciones + '\'' +
                 '}';
     }

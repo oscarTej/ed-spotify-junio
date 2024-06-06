@@ -9,8 +9,8 @@ public class Autor extends Cancion {
     public String apellidos;
 
 
-    public Autor(String idAlbum, String titulo, String añoPublicacion, String listaCanciones, String idCancion, String titulo1, String autor, String id, String nombre, String apellidos) {
-        super(idAlbum, titulo, añoPublicacion, listaCanciones, idCancion, titulo1, autor);
+    public Autor(String idAlbum, String titulo, String anioPublicacion, String listaCanciones, String idCancion, String titulo1, String autor, String id, String nombre, String apellidos) {
+        super(idAlbum, titulo, anioPublicacion, listaCanciones, idCancion, titulo1, autor);
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -27,7 +27,7 @@ public class Autor extends Cancion {
                 ", autor='" + autor + '\'' +
                 ", idAlbum='" + idAlbum + '\'' +
                 ", titulo='" + titulo + '\'' +
-                ", añoPublicacion='" + añoPublicacion + '\'' +
+                ", añoPublicacion='" + anioPublicacion + '\'' +
                 ", listaCanciones='" + listaCanciones + '\'' +
                 '}';
     }
