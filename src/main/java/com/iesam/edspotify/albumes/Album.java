@@ -1,6 +1,8 @@
 package com.iesam.edspotify.albumes;
 
-public class Album {
+import com.iesam.edspotify.albumes.canciones.Cancion;
+
+public class Album  {
     public String idAlbum;
     public String titulo;
     public String añoPublicacion;
@@ -12,6 +14,8 @@ public class Album {
         this.añoPublicacion = añoPublicacion;
         this.listaCanciones = listaCanciones;
     }
+
+
 
     @Override
     public String toString() {
