@@ -82,15 +82,16 @@ public class UsuarioFileLocalDataSource {
             return new ArrayList<>();
         }
 
-        public void delete(String modelId) {
+        public void delete(String dni) {
             List<Usuario> newList = new ArrayList<>();
             List<Usuario> models = findAll();
-            for (Usuario model : models) {
-                if (model.getId() != modelId) {
-                    newList.add(model);
+            for (Usuario usuario : models) {
+                if (!Objects.equals(usuario.dni, dni)) {
+                    newList.add(usuario);
                 }
             }
             saveList(newList);
         }
     }
+
 }
