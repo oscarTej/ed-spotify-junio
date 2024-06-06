@@ -30,7 +30,11 @@ public class UsuarioPresentation {
 
         GetUsuariosUseCase getUsuariosUseCase = new GetUsuariosUseCase(
                 new UsuarioDataRepository(new UsuarioFileLocalDataSource()));
-        getUsuariosUseCase.execute();
+
+        List<Usuario> usuarios = getUsuariosUseCase.execute();
+
+        System.out.println(usuarios);
+
 
 
     }

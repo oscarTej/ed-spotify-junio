@@ -10,7 +10,7 @@ import java.util.Objects;
 import java.util.Scanner;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.iesam.edspotify.usuario.data.local.
+import com.iesam.edspotify.usuario.data.local.UsuarioFileLocalDataSource;
 import com.iesam.edspotify.usuario.domain.Usuario;
 
 

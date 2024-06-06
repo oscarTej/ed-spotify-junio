@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class FacturaFileLocalDataSource {
 
-    private String nameFile = "demo.txt";
+    private String nameFile = "Facturas.txt";
 
     private Gson gson = new Gson();
 
